@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: relative;
+    height: 150vh;
+    width: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+nav {
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #c7e7e7; */
+    height: 70px;
+    position: absolute;
+    top: 10;
+    width: 100%;
+    height: 15%;
+}
+
+.logodiv {
+    display: flex;
+    align-items: center;
+}
+
+.logodiv img {
+    width: 100%;
+    height: 40px;
+    margin: 0 10px;
+}
+
+
+
+ul {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+ul li a:hover {
+    color: rgb(255, 20, 20);
+}
+
+/* banner section  */
+
+.banner-part {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.banner-part img {
+    height: 130vh;
+    width: 100%;
+}
+
+.banner-content {
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    position: absolute;
+    height: 190vh;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannertext {
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.bannertext a {
+    font-size: 50px;
+    line-height: 1;
+}
+
+
+.bannertext p{
+    font-weight: 500;
+    width: 100%;
+    margin: 5px auto;
+    font-size: 36px;
+    color: #888e9c;
+}
+.bannertext button{
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    padding: 10px 40px;
+    background: #5584ff;
+    border: none;
+    border-radius: 40px;
+    margin: 50px auto ;
+    transition: all linear .3s;
+    border: 2px solid #5584ff;
+}
+.bannertext button:hover{
+    transition: all linear .3s;
+    background: transparent;
+    border: 2px solid white;
+
+}
+
+/* Core Services */
+ .gallary {
+    padding: 100px 0;
+ }
+ .gallary img {
+    width: 480px;
+    height: 380px;
+ }
+
+
+
+ /* see more button */
+ .seemore {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 5px 60px;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    margin: 50px auto ;
+    transition: all linear .3s;
+    border: 1px solid rgb(17, 17, 17);
+    background: transparent;
+}
+.seemore:hover{
+    border: 2px solid #5584ff;
+    background: #5584ff;
+    transition: all linear .3s;
+
+}
+
+/* protfolio2 */
+.protfolio2{
+    background-image: url(images/main-banner.jpg);
+}
+
+/* psd-background */
+.psd-background{
+    background: url(images/landscip-banner.png) no-repeat center;
+    width: 90%;
+    height: 110vh;
+    background-size: contain;
+    position: relative;
+    margin:  0 auto;
+}
